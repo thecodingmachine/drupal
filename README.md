@@ -36,3 +36,8 @@ php composer.phar install
 
 This will download and unpack the Drupal archive at the root of your project.
 In this example, the version downloaded is 7.18 or greater, but lower than 8.0 (this is the meaning of the ~ just before the version number).
+
+Find more:
+----------
+
+Want to learn more about this package? Check out <a href="http://blog.thecodingmachine.com/content/installing-drupal-using-composer">the original blog post presenting *thecodingmachine/composer*</a>
