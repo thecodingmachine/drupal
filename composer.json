@@ -1,0 +1,23 @@
+{
+    "name": "thecodingmachine/drupal",
+    "description": "This package is an installer that will download Drupal from the http://drupal.org website and unpack it at the root of your Composer project.",
+    "keywords": ["drupal", "thecodingmachine", "installer"],
+    "homepage": "http://www.thecodingmachine.com",
+    "type": "archive-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0",
+    	"mouf/archive-installer": "~1.0"
+    },
+    "extra": {
+        "url": "http://ftp.drupal.org/files/projects/drupal-7.18.zip",
+        "target-dir": "."
+    }
+}
