@@ -23,8 +23,7 @@ Then create a *composer.json* file at the root of your project:
 {
     "require": {
         "thecodingmachine/drupal": "~7.18"
-    },
-    "minimum-stability": "dev" 
+    }
 }
 ```
 
